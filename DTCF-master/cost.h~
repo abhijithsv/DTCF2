@@ -1,0 +1,24 @@
+#include "tensor.h"
+#include <ctime>
+#include <sys/time.h>
+
+
+using namespace std;
+
+
+
+class cost
+{
+private:
+    Tensor* A;
+    Tensor* B;
+    Tensor* C;
+    int dimA, dimB, dimC,dimG,nprocs,minCost;
+    Grid* G;
+
+public:
+
+    cost(Tensor* &Ainit, Tensor* &Binit, Tensor* &Cinit, Grid* &Ginit);	
+    void bestCost(int* &idmapA, int* &idmapB, int* &idmapC, int* &ndimG, int* &npgrid);
+    void contract_2D_2D_2D(int* &idmapA, int* &idmapB, int* &idmapC, int* &ndimG, int* &npgrid);	
+};

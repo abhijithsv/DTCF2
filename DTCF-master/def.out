@@ -1,0 +1,57 @@
+/tmp/slurmd/job120147/slurm_script: line 30: [: make: integer expression expected
+Grid about to initialized
+Grid initialized
+Tensor A initialized
+Tensor B initialized
+boooore
+133
+1313
+boooore
+133
+1313
+boooore
+133
+1313
+boooore
+133
+1313
+boooore
+133
+1313
+boooore
+133
+1313
+boooore
+133
+1313
+boooore
+133
+1313
+boooore
+133
+1313
+boooore
+133
+1313
+boooore
+133
+1313
+boooore
+133
+1313
+boooore
+133
+1313
+Tensor C initialized
+boooore
+133
+1313
+<3, 2, 1, 0>  Total Time =1.40962e+09
+
+boooore
+133
+1313
+boooore
+133
+1313
+<3, 2, 1, 0>  <3, 2, 1, 0>  <3, 2, 1, 0>  <3, 2, 1, 0>  <3, 2, 1, 0>  <3, 2, 1, 0>  <3, 2, 1, 0>  <3, 2, 1, 0>  <3, 2, 1, 0>  <3, 2, 1, 0>  <3, 2, 1, 0>  <3, 2, 1, 0>  <3, 2, 1, 0>  <3, 2, 1, 0>  <3, 2, 1, 0>  
